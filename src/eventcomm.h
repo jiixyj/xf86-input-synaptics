@@ -29,10 +29,10 @@
 
 #include <xorg-server.h>
 
-#include <linux/input.h>
-#include <linux/version.h>
 #include <xf86Xinput.h>
 #include "synproto.h"
+
+#include <linux/input.h>
 
 /* for auto-dev: */
 #define DEV_INPUT_EVENT "/dev/input"

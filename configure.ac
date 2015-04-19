@@ -105,6 +105,7 @@ case "${host}" in
 	AC_MSG_RESULT([ps2comm alpscomm psmcomm])
 	BUILD_PS2COMM="yes"
 	BUILD_PSMCOMM="yes"
+	BUILD_EVENTCOMM="yes"
 	;;
 *solaris* | *gnu*)
 	AC_MSG_RESULT([ps2comm alpscomm])
